@@ -108,3 +108,69 @@ h4 {
   font-size: 2.2rem;
   font-weight: 900;
 }
+
+/** Blog **/
+.entrada h3::after{
+  content: '';
+  display: block;
+  width: 8rem;
+  height: .2rem;
+  background-color: #71b100;
+  margin-top: .5rem;
+}
+
+.meta span {
+  color: var(--secundario);
+}
+
+.btn-success {
+  background-color: var(--primario);
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #609602;
+}
+
+/** Testimoniales **/
+.testimoniales {
+  background-color: var(--primario);
+}
+
+.testimoniales .carousel-item {
+  padding-left: 2rem;
+}
+.testimoniales .testimonial-texto {
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  font-weight: 300;
+}
+.testimoniales .testimonial-texto::before {
+  position: absolute;
+  content: open-quote;
+  font-size: 4rem;
+  left: 0;
+  top: 1rem;
+  font-weight: 900;
+}
+
+.testimoniales span {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+/** Footer **/
+
+.footer.bg-dark {
+  background-color: #333333!important;
+}
+
+.footer .nav-link{
+  color: #fff;
+  text-transform: uppercase;
+}
+.footer a:hover{
+  color: rgba(0,0,0,0.6);
+}
